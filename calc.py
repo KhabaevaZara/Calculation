@@ -6,6 +6,7 @@ def calc():
         a = float(input("Введите 1 число: "))
         op = input("Введите операцию (+, -, *, /): ").strip()
         b = float(input("Введите 2 число: "))
+
         
         if op == '+':
             result = a + b
